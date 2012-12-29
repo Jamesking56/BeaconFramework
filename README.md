@@ -9,9 +9,9 @@ Please see the [wiki](https://github.com/Jamesking56/BeaconFramework/wiki) (edit
 If you've found a bug or potential issue with this framework, please let us know by submitting an [issue](https://github.com/Jamesking56/BeaconFramework/issues). Please be as descriptive as possible when doing this.
 
 ## Testing
-This project uses *[Travis](http://travis-ci.org)* for automated testing. Please check the build status by looking at this image below. If the image is Yellow or Red, we recommend that you do not download this current revision:
+This project uses *[Travis](http://travis-ci.org)* for automated testing. Please check the build status by looking at this image below. If the image is not **green** in colour or does not say the word **"passing"**, we recommend that you do not download this current revision.
 
-[![Build Status](https://travis-ci.org/Jamesking56/BeaconFramework.png)](https://travis-ci.org/Jamesking56/BeaconFramework)
+**Master Branch:** [![Build Status](https://travis-ci.org/Jamesking56/BeaconFramework.png?branch=master)](https://travis-ci.org/Jamesking56/BeaconFramework)
 
 ## Licensing
 This project is licensed under Creative Commons Attribution-NonCommercial-ShareAlike 3.0 Unported:
