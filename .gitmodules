@@ -1,0 +1,3 @@
+[submodule "src/includes/smarty"]
+	path = src/includes/smarty
+	url = git://github.com/Jamesking56/Smarty-PHP.git
