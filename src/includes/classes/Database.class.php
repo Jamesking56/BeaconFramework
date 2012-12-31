@@ -24,8 +24,8 @@ if(!defined('BEACON')){ die('Hack Attempt.'); }
 */
 class Database
 {
-	$type = 'mysql';
-	$conn = null;
+	private $type = 'mysql';
+	private $conn = null;
 
 	function __construct($type='mysql', $host='localhost', $port=3306, $user, $pass=null, $name)
 	{

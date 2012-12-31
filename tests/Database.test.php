@@ -1,6 +1,5 @@
 <?php
 define('BEACON',true);
-require_once('PHPUnit/Framework.php');
 require_once('../src/includes/classes/Database.class.php');
 /**
 * Database Test - Tests the Database Class via Travis.
@@ -22,7 +21,7 @@ class DatabaseTest extends PHPUnit_Framework_TestCase
 
 	public function tearDown()
 	{
-		$this->database->disconnect();
+		//$this->database->disconnect();
 		$this->database = null;
 	}
 }
