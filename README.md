@@ -18,9 +18,7 @@ If you've found a bug or potential issue with this framework, please let us know
 ## Testing
 This project uses *[Travis](http://travis-ci.org)* for automated testing. Please check the build status by looking at this image below. If the image is not **green** in colour or does not say the word **"passing"**, we recommend that you do not download this current revision.
 
-**Master Branch:** [![Build Status](https://travis-ci.org/Jamesking56/BeaconFramework.png?branch=master)](https://travis-ci.org/Jamesking56/BeaconFramework)
-
-**Dev Branch:** [![Build Status](https://travis-ci.org/Jamesking56/BeaconFramework.png?branch=dev)](https://travis-ci.org/Jamesking56/BeaconFramework)
+[![Build Status](https://travis-ci.org/Jamesking56/BeaconFramework.png)](https://travis-ci.org/Jamesking56/BeaconFramework)
 
 ## Licensing
 This project is licensed under Creative Commons Attribution-NonCommercial-ShareAlike 3.0 Unported. **You can NOT use this framework in your commercial projects**:
