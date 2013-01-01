@@ -22,6 +22,7 @@ if(!defined('BEACON')){ die('Hack Attempt.'); }
 * - SQLite
 * - MS SQL
 */
+require_once('exceptions/Database.exception.php');
 class Database
 {
 	private $type = 'mysql';
@@ -29,7 +30,16 @@ class Database
 
 	function __construct($type='mysql', $host='localhost', $port=3306, $user, $pass=null, $name)
 	{
-
+		$type = strtolower($type);
+		switch ($type) {
+			case 'mysql':
+				
+				break;
+			
+			default:
+				throw new DatabaseException("Database Type ".$type." is not supported by this class.");
+				break;
+		}
 	}
 }
 

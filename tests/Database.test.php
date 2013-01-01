@@ -19,6 +19,14 @@ class DatabaseTest extends PHPUnit_Framework_TestCase
 		$this->assertTrue(true);
 	}
 
+	/**
+	 * @expectedException DatabaseException
+	 */
+	public function testDatabaseException()
+	{
+		$conn = new Database('sqlite',false,false,'root',false,'database');
+	}
+
 	public function tearDown()
 	{
 		//$this->database->disconnect();
