@@ -1,6 +1,6 @@
 <?php
 define('BEACON',true);
-require_once('../src/includes/classes/Database.class.php');
+require_once(dirname(__FILE__) . '../src/includes/classes/Database.class.php');
 /**
 * Database Test - Tests the Database Class via Travis.
 */
