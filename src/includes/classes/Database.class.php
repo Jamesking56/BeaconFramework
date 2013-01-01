@@ -16,11 +16,12 @@ if(!defined('BEACON')){ die('Hack Attempt.'); }
 * Database Class - Manages all Database Connections.
 *
 * Supports:
-* - MySQL
+* - MySQL        (mysql)
+* - PostgresSQL  (pgsql)
 *
 * Planned:
-* - SQLite
-* - MS SQL
+* - SQLite       (sqlite)
+* - MS SQL       (mssql)
 */
 require_once('exceptions/Database.exception.php');
 class Database
@@ -33,7 +34,9 @@ class Database
 		$type = strtolower($type);
 		switch ($type) {
 			case 'mysql':
-				
+			case 'pgsql':
+				$dsn = $type . ":dbname=".$name.";host=".$host;
+				$this->conn = new PDO($dsn, $user, $pass);
 				break;
 			
 			default:
