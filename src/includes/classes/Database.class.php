@@ -56,7 +56,10 @@ class Database
 		switch ($this->type) {
 			case 'mysql':
 			case 'pgsql':
-				return $this->conn->query($sql, $options);
+				if($options != null)
+					return $this->conn->query($sql, $options);
+				else
+					return $this->conn->query($sql);
 				break;
 			
 			default:
