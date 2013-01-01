@@ -44,6 +44,37 @@ class Database
 				break;
 		}
 	}
+
+	/**
+	 * Runs an SQL query string on the Database
+	 * @param  string $sql     The SQL query string to run on the Database.
+	 * @param  int $options    Additional PDO options (such as FETCH_COLUMN, FETCH_CLASS and FETCH_INTO)
+	 * @return PDOStatement    The PDOStatement object.
+	 */
+	public function query($sql, $options=null)
+	{
+		switch ($this->type) {
+			case 'mysql':
+			case 'pgsql':
+				return $this->conn->query($sql, $options);
+				break;
+			
+			default:
+				throw new DatabaseException("Database Type ".$this->type." is not supported by this class.");
+				break;
+		}
+	}
+
+
+	/**
+	 * Closes the Database Connection
+	 * @return boolean True to say that the Database is disconnected.
+	 */
+	public function close()
+	{
+		$this->conn = null;
+		return true;
+	}
 }
 
 ?>
