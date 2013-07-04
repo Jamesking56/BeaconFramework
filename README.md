@@ -1,4 +1,4 @@
-BeaconFramework
+BeaconFramework [![Project Status](http://stillmaintained.com/Jamesking56/BeaconFramework.png)](http://stillmaintained.com/Jamesking56/BeaconFramework)
 ===============
 
 The web framework used for *most* client web projects by [Beacon Studios](http://www.beaconstudios.co).
