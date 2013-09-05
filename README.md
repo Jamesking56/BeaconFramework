@@ -24,3 +24,7 @@ This project uses *[Travis](http://travis-ci.org)* for automated testing. Please
 This project is licensed under Creative Commons Attribution-NonCommercial-ShareAlike 3.0 Unported. **You can NOT use this framework in your commercial projects**:
 
 <div style="margin:0 auto;"<a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/3.0/deed.en_US"><img alt="Creative Commons License" style="border-width:0" src="http://i.creativecommons.org/l/by-nc-sa/3.0/88x31.png" /></a><br /><span xmlns:dct="http://purl.org/dc/terms/" property="dct:title">BeaconFramework</span> by <a xmlns:cc="http://creativecommons.org/ns#" href="http://www.beaconstudios.co" property="cc:attributionName" rel="cc:attributionURL">http://www.beaconstudios.co</a> is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/3.0/deed.en_US">Creative Commons Attribution-NonCommercial-ShareAlike 3.0 Unported License</a>.<br />Permissions beyond the scope of this license may be available at <a xmlns:cc="http://creativecommons.org/ns#" href="http://www.beaconstudios.co" rel="cc:morePermissions">http://www.beaconstudios.co</a>.</div>
+
+
+[![Bitdeli Badge](https://d2weczhvl823v0.cloudfront.net/Jamesking56/beaconframework/trend.png)](https://bitdeli.com/free "Bitdeli Badge")
+
